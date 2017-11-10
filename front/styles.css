@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+body{
+	font-family: Quicksand;
+	color: white;
+	background: #042929;
+}
+#main_container{
+	width: 40%;
+	margin-left: 30%;
+	background: #10a4a4;
+	border-radius: 3px;
+	margin-top: 10px;
+	overflow: auto;
+	height: 400px;
+	box-shadow: 0px 0px 20px grey;
+}
+
+#header{
+	font-size: 150%;
+	border-radius: 3px 3px 0px 0px;
+	background: #14cece;
+	padding: 10px;
+	text-align: center;
+}
+
+.input_field{
+	font-family: Quicksand;
+	padding: 5px;
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 10%;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+}
+
+.button{
+	border: none;
+	width: 100px;
+	text-align: center;
+	background: #14cece;
+	font-family: Quicksand;
+	padding: 7px;
+	color: white;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: calc(50% - 50px);
+	border-radius: 3px;
+}
+
+.chart_inner_node{
+	height: 10px;
+	border-radius: 10px;
+	width: 10px;
+	margin-left: -5px;
+	background: #7ededb;
+}
+
+.chart_node{
+
+}
+
+#chart_container{
+	position: absolute;
+	display: none;
+}
+
+#loading_msg{
+	margin-top: 200px;
+	width: 100%;
+	text-align: center;
+	font-size: 200%;
+	color: white;
+	display: none;
+	letter-spacing: 3px;
+}
+
+#back{
+	float: left;
+	cursor: pointer;
+	font-size: 80%;
+	display: none;
+}
+
+.node-data_link{
+	display: none;
+}
+
+#node_label{
+	display: none;
+	position: absolute;
+	width: 400px;
+	word-wrap: break-word;
+	padding: 20px;
+	height: 100px;
+	background: #14cece;
+	font-size: 80%;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px grey;
+	z-index: 1000;
+}

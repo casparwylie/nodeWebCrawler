@@ -1,0 +1,28 @@
+doctype html
+html
+	head
+	link(rel='stylesheet', href='/styles.css')
+	link(rel='stylesheet', href='/Treant.css')
+	script(src="/jquery.js")
+	script(src="/raphael.js")
+	script(src="/Treant.js")
+	script(src="/core.js")
+	
+	body
+
+		div(id = "back") << Back
+		br
+		br
+		div(id = "main_container")
+			div(id = "header")
+				| Monzo Code Test: Web Crawler
+
+			div(id = "form")
+				input(type = "text" class = "input_field" id = "url_input" placeholder = "Enter URL to crawl")
+				input(type = "text" class = "input_field" id = "crawl_depth_input" placeholder = "Enter Crawl Depth (e.g 4)")
+				input(type ="button" class = "button" value = "Crawl" id = "crawl_submit")
+
+		div(id = "loading_msg") Crawling...
+		div(id = "node_label")
+
+		div(id = "chart_container")
